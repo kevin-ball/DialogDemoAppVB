@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    style="@style/myTheme"
+    tools:context="com.example.user1.dialogdemoapp.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/text"
+        android:text="@string/title" />
+
+    <Button
+        android:id="@+id/btnQuit"
+        style="@style/btn"
+        android:text="@string/quit" />
+
+    <Button
+        android:id="@+id/btnPick"
+        style="@style/btn"
+        android:text="@string/pickDate"
+        android:onClick="showDatePickerDialog"/>
+
+    <TextView
+        android:id="@+id/tvDateSelected"
+        style="@style/text"
+        android:text="@string/dateSelected" />
+</LinearLayout>

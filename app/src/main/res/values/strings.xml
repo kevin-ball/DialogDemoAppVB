@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DialogDemoApp</string>
+    <string name="title">"Dialog App Team Avengers: Victoria Larina, Junliu Zhang, Kevin Ball</string>
+    <string name="dialog_message">Do you really want to quit?</string>
+    <string name="dialog_title">Quit</string>
+    <string name="quit">Quit</string>
+    <string name="pickDate">Pick a Date</string>
+    <string name="dateSelected">Date you selected</string>
+</resources>
