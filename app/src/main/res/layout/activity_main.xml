@@ -13,7 +13,8 @@
     <Button
         android:id="@+id/btnQuit"
         style="@style/btn"
-        android:text="@string/quit" />
+        android:text="@string/quit"
+        android:onClick="showAlertPickerDialog"/>
 
     <Button
         android:id="@+id/btnPick"
